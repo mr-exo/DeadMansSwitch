@@ -3,7 +3,7 @@
 
 DeadMansSwitch is a program to encrypt your data, send money, format your hard drive, send messages in case if something happens to you.
 
-It's multithreaded, so no need to worry that it'll crash out of nowhere.
+It's multithreaded and its simple.
 
 You need a device so you can host your Switch and then log into it to use it.
 You can host it on localhost or you can port forward your router so swich can be accessed from anywhere.
