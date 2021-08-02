@@ -1,9 +1,9 @@
 # Dead Man's Switch v1 by exo (https://github.com/mr-exo/)
 # It can delete Logs, delete accounts, send messages (totally customizable)
 # there's an option to ignore you being offline (for X amount of days; it will freeze timer for X amount of days)
-# Server - listener for client input or any activity from client
-# Client - User that can log in the server and say 'hey, im still alive and im not arrested!' to the server
-# Configuration at XXXth line of code
+# Windows and Linux Supported
+
+# Configuration at 36th line of code
 
 try:
 	licznik=0
@@ -34,15 +34,13 @@ except Exception:
 
 # Dead Man's Switch Configuration
 # ==============================
-daysCount = 3 # If user after 3 days won't log into server, server will start terminating procedure
-ok=False
-switch_name = "SwitchV1"
+switch_name = "SwitchV1" # Switch name - you can change that to your name or something else
 welcome_message_login_page=f"Welcome to {switch_name} ({server_os} v1) !" # Welcome Message on Login page
-host_ip="192.168.1.10" # Default - socket.gethostname(); You can change this to your public ip
+host_ip="" # Default - socket.gethostname() (<== it will only work in localhost); You can change this to your local ip and port forward your router OR rent a linux server
 port_number= 8989 # Default port number is 8989
 number_of_users_atst = 3 # max number of users that can be connected at the same time
-user="admin"
-admin_pass="password"
+user="admin" # login to switch
+admin_pass="password" # password for user to switch
 # ==============================
 
 x=datetime.now()
