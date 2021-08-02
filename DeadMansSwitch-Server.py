@@ -1,4 +1,4 @@
-# Dead Man's Switch v1 by exo (https://github.com/mr-exo/)
+# Dead Man's Switch v1 by exo (https://github.com/mr-exo/DeadMansSwitch)
 # It can delete Logs, delete accounts, send messages (totally customizable)
 # there's an option to ignore you being offline (for X amount of days; it will freeze timer for X amount of days)
 # Windows and Linux Supported
