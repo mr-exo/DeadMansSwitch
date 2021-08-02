@@ -1,4 +1,4 @@
-# Dead Man's Switch - Client v1 by exo (https://github.com/mr-exo/)
+# Dead Man's Switch - Client v1 by exo (https://github.com/mr-exo/DeadMansSwitch)
 # Deleting Logs, deleting accounts, sending messages (totally customizable)
 
 # Client Program
